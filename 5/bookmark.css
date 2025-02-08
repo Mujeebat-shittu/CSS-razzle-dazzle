@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 1rem auto;
+    background-color: #F5F8FA;
+    font-family: "Lato", serif;
+  font-weight: 400;
+
+}
+
+header{ display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 5rem;
+}
+
+header+img{ width: 100%;}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem; 
+
+}
+
+
+nav li { padding: 1.2rem;}
+
+main{ display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 1rem;
+margin: 4rem auto;
+height: 80%;
+width: 60%;
+}
+
+.freelancer{
+    background-color:#1179BF ;
+    height: 100%;
+    
+    max-width: 30%;
+    padding: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+   
+}
+
+.checkout, .freelancer {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.checkout{
+    background-color:#fff ;
+    height: 100%;
+   
+   max-width: 65%;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
+img+p { margin-top: 2rem;}
+
+.form{
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 12rem;
+    row-gap: 2rem;
+}
+
+.formcontent{
+        flex: 1 1 calc(50% - 1rem);
+        min-width: 150px;
+        margin-bottom: 1rem;
+    
+}
+
+li{ list-style: none;}
+
+.li{ display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+input{
+    height: 2.3rem;
+background-color: #EDEFF2;
+border: none;
+padding: 1rem; 
+border-radius: 5px;
+margin: 0.5rem auto;}
+
+
+.fullwidth {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.fullwidth input { width: 100%;
+   
+    height: 2.5rem; background-color: #EDEFF2;
+    min-width: 100%;
+    border: none;
+    border-radius: 5px;}
+
+    .fullwidth input[type="email"] {
+        width: 200%;
+    }
+    
+#email{ width:80% ;
+    
+    
+}
+
+.payment{
+    width: 91%;
+}
+
+.bf {
+    font-size: 5rem;
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    background-color: #038E7D;
+    color: #fff;
+    border-radius: 5px;
+    margin: 1rem auto ;
+    display: block;
+}
+
+button~img{
+    margin: 1rem auto;
+
+}

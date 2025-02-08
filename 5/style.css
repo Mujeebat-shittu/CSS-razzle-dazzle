@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    background-color: #F5F8FA;
+    font-family: "Lato", serif;
+  font-weight: 400;
+  font-size: 1.1rem
+}
+
+header{ display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 5rem;
+}
+
+header+img{ width: 100%;}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem; 
+
+}
+
+
+nav li { padding: 1.2rem;}
+
+li{
+    list-style: none;
+}
+
+.li{
+    margin-bottom: 0.5rem;
+}
+
+main{ display: flex;
+    flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 1rem;
+margin: 4rem auto;
+height: 80vh;
+width: 55vw;
+}
+
+.checkout{
+    width: 60%;
+    height: 100%;
+    background-color: #fff;
+    padding: 2rem;
+
+}
+
+.freelancer{
+    width: 40%;
+    height: 100%;
+    background-color: #1179BF;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+
+.fullname{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.formcontent{
+    flex: 1 1 calc(50%-1.5rem);
+    min-width: 150px;
+}
+
+
+#email{
+    width: 93%;
+}
+
+
+input{
+    height: 2rem;
+background-color: #EDEFF2;
+border: none;
+padding: 1rem; 
+border-radius: 5px;
+margin: 0.5rem auto;}
+
+.payment input { width: 93%;
+    height: 2rem;
+    background-color: #EDEFF2;
+    border: none;
+    border-radius: 5px;}
+
+    .bf {
+        font-size: 5rem;
+    }
+    
+    button{
+        width: 98%;
+        padding: 1rem;
+        border: none;
+        background-color: #038E7D;
+        color: #fff;
+        border-radius: 5px;
+        margin: 1rem auto ;
+        display: block;
+    }
+    
+    form+p{
+        text-align: center;
+    
+    }
+
+
+    p+img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem auto;
+    }
+
+    .kirk{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+
+    }
