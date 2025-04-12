@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
 body {display: flex;
+    align-items: center;
+    justify-content: center;
 margin: 2rem 1.5rem;
 padding: 1.3rem;
 font-family: "Simonetta", serif;
@@ -16,10 +18,19 @@ background-color: #F7FDFC;
 }
 }
 
-.logo{ height: 20%; width:30%;
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.img{ height: 20%; width:30%;
     margin:5rem auto 0;
 }
-.logo p { line-height: 1.5rem;}
+.logo .text { line-height: 1.5rem;
+width: 30%;height: fit-content;}
 
 
 
@@ -29,7 +40,7 @@ background-color: #F7FDFC;
     background-position: center;
     background-repeat: no-repeat;
     width: 55%;
-    height: 90vh;
+    height: fit-content;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -40,7 +51,7 @@ background-color: #F7FDFC;
     background: rgba(255, 255, 255, 0.7);
     padding: 2rem;
     border-radius: 1rem;
-    margin:1rem auto;
+    margin:4rem auto;
 }
 
 
@@ -72,6 +83,7 @@ button{
     border: none;
     color: white;
 }
+
 
 a{ color: #2EC4B6;}
 
