@@ -2,12 +2,14 @@ body{
     background-image: url(./assets/image/hijab.png);
     background-size: 98%;
     font-size: 2rem;
-    padding: 5rem;
     margin: 3rem auto;
     background-color: gray;
     color: #fff;
-    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 
 nav ul{ display: flex; 
     flex-direction: row;
@@ -19,6 +21,7 @@ nav ul{ display: flex;
 
 nav li { 
     list-style: none;
+    padding: 1rem;
 }
 
 nav a { color: #fff;
