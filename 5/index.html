@@ -1,125 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WP Pusher</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./assets/image/wppusher-logo copy.png" alt="">
-        <nav>
-            <ul>
-                <li>Download</li>
-                <li>Learn more</li>
-                <li>Pricing</li>
-                <li>Help</li>
-                <li>Account</li>
+      <img src="./assets/image/wppusher-logo copy.png" alt="" />
+      <nav>
+          <ul class="nav" >
+              <li>Download</li>
+              <li>Learn more</li>
+              <li>Pricing</li>
+              <li>Help</li>
+              <li>Account</li>
             </ul>
-        </nav>
-    </header>
-    <img src="./assets/image/Rectangle.png" alt="">
-    <main>
-        
-            <div class="checkout">
-                <h1>Checkout</h1>
-                <img src="./assets/image/Rectangle 9 Copy 5.png" alt="">
 
-
-                    
-                        <p> <span class="number">1.</span>
-                             <b>Your Basic Information</b></p>
-                
-                <form action="">
-                
-                    <div class="fullname">
-                            <div class="formcontent">
-
-                                <label for="fname">First Name</label><br>
-                                <input type="text" id="fname" name="firstName" placeholder="Jane"><br><br>
-                            </div>
-                            <div class="formcontent">
-                                <label for="lname">Last Name </label><br>
-                                <input type="text" id="lname" name="lastName" placeholder="Doe"><br><br>
-                            </div>
-                        </div>
-
-
-                    <div class=" fullwidth">
-                        <label for="email">E-mail</label><br>
-                        <input type="email" id="email" name="email" placeholder="janedoe@example.com"><br><br>
-                    </div>
-                </form>
-            <br>
-
-                    
-    <p> <span class="number">2.</span> <b>Your Payment Information</b>  </p>
-                        
-
-                    <form action="" class="payment">
-
-                        <div class="payment">
-                            <label for="cardinfo">Credit Card</label><br>
-                            <input type="text" id="cardinfo" name="cardinfo"
-        placeholder="Card Number                    MM/YY      CVC">
-                        </div><br>
-                    
-    
-                        <button type="submit"> Buy WP Pusher</button>
-                    </form>
-                    <p>? <b>Need any help?</b><a href="">Don't hesitate to contact support?</a></p>
-                     <img src="./assets/image/powered_by_stripe.png" alt="">
-
-
-                
+            <div class="menuIcon">
+              <i class="fa-solid fa-bars" id="icon"></i>
             </div>
+      </nav>
+    </header>
+    <img src="./assets/image/Rectangle.png" alt="" />
+    <main>
+      <div class="checkout">
+        <h1>Checkout</h1>
+        <img src="./assets/image/Rectangle 9 Copy 5.png" alt="" />
 
-            <div class="freelancer">
-                <b>Freelancer</b>
-                 <br>
-                 <p><sup>&dollar;</sup> <span class="bf">99</span>/year </p>
+        <p><span class="number">1.</span> <b>Your Basic Information</b></p>
 
-               
-                Automatically renews after 1 year
+        <form action="">
+          <div class="fullname">
+            <div class="formcontent">
+              <label for="fname">First Name</label><br />
+              <input
+                type="text"
+                id="fname"
+                name="firstName"
+                placeholder="Jane"
+              /><br /><br />
+            </div>
+            <div class="formcontent">
+              <label for="lname">Last Name </label><br />
+              <input
+                type="text"
+                id="lname"
+                name="lastName"
+                placeholder="Doe"
+              /><br /><br />
+            </div>
+          </div>
 
-                <ul>
+          <div class="fullwidth">
+            <label for="email">E-mail</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="janedoe@example.com"
+            /><br /><br />
+          </div>
+        </form>
+        <br />
 
-                    <div class="li">
-                        
-                        <li><i class="fa-regular fa-circle-check check-icon"></i> Use on <b>5</b> client sites</li>
-                    </div>
-                    <div class="li">
+        <p><span class="number">2.</span> <b>Your Payment Information</b></p>
 
-                        <li><i class="fa-regular fa-circle-check check-icon"></i> Private repositories</li>
-                    </div>
-                    <div class="li">
+        <form action="" class="payment">
+          <div class="payment">
+            <label for="cardinfo">Credit Card</label><br />
+            <input
+              type="text"
+              id="cardinfo"
+              name="cardinfo"
+              placeholder="Card Number                    MM/YY      CVC"
+            />
+          </div>
+          <br />
 
-                        <li><i class="fa-regular fa-circle-check check-icon"></i> Email support</li>
-                    </div>
+          <div class="button">
 
-                </ul> <br>
+              <button type="submit">Buy WP Pusher</button>
+            </form>
+            <p>
+              ? <b>Need any help?</b
+              ><a href="">Don't hesitate to contact support?</a>
+            </p>
+            <img src="./assets/image/powered_by_stripe.png" alt="" />
+          </div>
 
-                Need <b>20</b> client sites?<br>
-                <p><a href="">Switch to the Agency plan</a></p>
+      </div>
+          
+      <div class="freelancer">
+        <b>Freelancer</b>
+        <br />
+        <p><sup>&dollar;</sup> <span class="bf">99</span>/year</p>
 
-                <img src="./assets/image/Rectangle 3.png" alt="">
-                FTP is horrible to deal with. WP Pusher solves that issue, and the
-                customer support is awesome! <br><br>
-                <div class="kirk">
+        Automatically renews after 1 year
 
-                    <img src="./assets/image/Bitmap.png" alt="">&nbsp; <b>Kirk Beard</b>
-                </div>
-                    </div>
+        <ul>
+          <div class="li">
+            <li>
+              <i class="fa-regular fa-circle-check check-icon"></i> Use on
+              <b>5</b> client sites
+            </li>
+          </div>
+          <div class="li">
+            <li>
+              <i class="fa-regular fa-circle-check check-icon"></i> Private
+              repositories
+            </li>
+          </div>
+          <div class="li">
+            <li>
+              <i class="fa-regular fa-circle-check check-icon"></i> Email
+              support
+            </li>
+          </div>
+        </ul>
+        <br />
 
-        
+        Need <b>20</b> client sites?<br />
+        <p><a href="">Switch to the Agency plan</a></p>
 
+        <img src="./assets/image/Rectangle 3.png" alt="" />
+        FTP is horrible to deal with. WP Pusher solves that issue, and the
+        customer support is awesome! <br /><br />
+        <div class="kirk">
+          <img src="./assets/image/Bitmap.png" alt="" />&nbsp; <b>Kirk Beard</b>
+        </div>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+    <script src="./script.js"></script>
+  </body>
 </html>
