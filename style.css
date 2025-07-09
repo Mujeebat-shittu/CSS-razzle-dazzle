@@ -6,10 +6,17 @@ body{
     background-color: gray;
     color: #fff;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     padding: 5rem;
 }
+
+@media (max-width:610px){
+    body{
+        background-position: center;
+    background-size: cover;
+    }
+}
+
+
 
 
 nav ul{ display: flex; 
