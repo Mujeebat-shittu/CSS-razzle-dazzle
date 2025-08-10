@@ -1,49 +1,50 @@
-body{
-    background-image: url(./assets/image/hijab.png);
-    background-size: 98%;
-    font-size: 2rem;
-    margin: 3rem auto;
-    background-color: gray;
-    color: #fff;
-    background-repeat: no-repeat;
-    padding: 5rem;
+body {
+  background-image: url(./assets/image/hijab.png);
+  background-size: 98%;
+  font-size: 2rem;
+  margin: 3rem auto;
+  background-color: gray;
+  color: #fff;
+  background-repeat: no-repeat;
+  padding: 5rem;
+  width: 100%;
+  height: 100%;
 }
 
-@media (max-width:610px){
-    body{
-        background-position: center;
+@media (max-width: 610px) {
+  body {
+    background-position: center;
     background-size: cover;
     padding: 2rem;
     font-size: 1.3rem;
-    }
+  }
 
-    .body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-
-
-
-nav ul{ display: flex; 
-    flex-direction: row;
-    padding: 1rem;
+  .body {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 5rem;
+    justify-content: center;
+  }
 }
 
-nav li { 
-    list-style: none;
-    padding: 1rem;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  /* padding: 1rem; */
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
 }
 
-nav a { color: #fff;
-    border: 3px solid #fff;
-    border-radius: 1rem;
-    padding: 1rem;
-    text-decoration: none;
+nav li {
+  list-style: none;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  border: 3px solid #fff;
+  border-radius: 1rem;
+  /* padding: 1rem; */
+  text-decoration: none;
 }
