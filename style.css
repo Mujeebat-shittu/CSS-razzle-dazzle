@@ -1,6 +1,7 @@
 body {
   background-image: url(./assets/image/hijab.png);
   background-size: 98%;
+  background-position: center;
   font-size: 2rem;
   margin: 3rem auto;
   background-color: gray;
