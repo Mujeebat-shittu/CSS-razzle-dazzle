@@ -31,13 +31,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
-  padding: 1rem;
+  padding: 0.7rem;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 5rem;
