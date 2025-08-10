@@ -13,7 +13,8 @@ body{
     body{
         background-position: center;
     background-size: cover;
-    padding: 3rem;
+    padding: 2rem;
+    font-size: 1.3rem;
     }
 
     .body{
